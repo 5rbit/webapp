@@ -6,7 +6,3 @@ export async function POST({ request }) {
     return json(a + b);
 }
 
-// // This handler will respond to PUT, PATCH, DELETE, etc.
-// export const fallback: RequestHandler = async ({ request }) => {
-//     return text(`I caught your ${request.method} request!`);
-// };
